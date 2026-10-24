@@ -2,9 +2,15 @@
 
 ## Overview
 
-This project is a Flask-based applicant onboarding application built as part of the Alloy Technical Success Manager take-home assignment.
+This project is a Flask-based applicant onboarding application I built as part of the Alloy Technical Success Manager take-home assignment.
 
 The application collects applicant information, submits it to Alloy's sandbox evaluation API, and displays the resulting onboarding decision.
+Frontend and Backend checks have been added to validate these requirements - 
+
+- State is a two-letter code, such as NY or CA.
+- Country is US - it cannot be modified.
+- Social Security number must contain nine digits with no dashes.
+- Date of birth is using the ISO-8601 format: YYYY-MM-DD.
 
 ## Features
 
